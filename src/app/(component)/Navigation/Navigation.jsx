@@ -28,22 +28,22 @@ export default function Navigation() {
 
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link  href="/" aria-current="page" color="warning">
            Home
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="warning">
+          <Link href="/about" color="foreground">
             About
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/service">
             Service
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="contact">
             Contact
           </Link>
         </NavbarItem>
